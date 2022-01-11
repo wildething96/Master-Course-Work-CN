@@ -1,13 +1,16 @@
 /* Challenge 1 */
 
-// let welcome = () => {
-//     console.log("Hello Code Nation")
-// }
+let welcome = () => {
+  console.log("Hello Code Nation");
+};
 
-// let multiply = (welcome)
-//     for (let i = 0; i < 5; i++){
-//         welcome()
-//     }
+let multiply = (func) => {
+  for (let i = 0; i < 5; i++) {
+    func();
+  }
+};
+
+multiply(welcome);
 
 /* Challenge 2 */
 
@@ -15,8 +18,8 @@
 //     return num1 + num2
 // }
 
-// let higherFunction = (num1, num2, num3) => {
-//     return num1 * 5 + num2 + num3 
+// let higherFunction = (func, num2, num3) => {
+//     return num1 * 5 + num2 + num3
 // }
 
 // let answer = higherFunction(simpleFunction(2, 3), 3, 1)
